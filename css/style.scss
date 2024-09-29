@@ -1,0 +1,27 @@
+body {
+  background-color: #f2e530;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+#main-nav {
+  position: relative;
+  display: grid;
+  width: 100%;
+  height: calc(2em + 2vw);
+  background-color: #000;
+  justify-content: center;
+  grid-auto-flow: column;
+
+  a {
+    display: grid;
+    text-decoration: none;
+    margin: calc(0.5em + 0.5vw);
+    padding: 0;
+    list-style: none;
+    color: #fff;
+    font-family: "Courier New", Courier, monospace;
+    font-size: calc(1em + 1vw);
+  }
+}
